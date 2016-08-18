@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Good-Natured
+   
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120817
+
+-->
+<html>
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Register</title>
+<link href="#" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<script  type="text/javascript">
+function reg()
+{
+var name=document.getElementById("name").value;
+var pass=document.getElementById("pass").value;
+var em=document.getElementById("em").value;
+var dd=document.getElementById("dd").value;
+var cpass=document.getElementById("cpass").value;
+var mm=document.getElementById("mm").value;
+var yyyy=document.getElementById("yyyy").value;
+var mob=document.getElementById("mob").value;
+var city=document.getElementById("city").value;
+var gen=document.getElementById("gen").value;
+
+if(name.length<=0)
+{ alert("enter name")
+   return false;
+	}
+if(pass.length<=5)
+{ alert("enter valid pass");
+   return false;
+	}
+if(cpass!=pass)
+{ alert("pass  not match ");
+   return false;
+	}
+if(dd=="dd")
+{ alert("invalid date");
+   return false;
+	}
+if(mm=="mm")
+{ alert("invalid month");
+   return false;
+	}
+if(yyyy=="yyyy")
+{ alert("invalid year");
+   return false;
+	}
+	
+	if(mob.length!=10)
+{ alert("invalid MOB");
+   return false;
+	}
+	
+	alert("you have been regestered");
+}
+</script>
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="index.html">Property Deal</a></h1>
+			<p>site design by UNIVERSAL</p>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Homepage</a></li>
+				<li><a href="login.html">login</a></li>
+				<li><a href="register.html">register</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Links</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner" class="container">
+		<div class="image-style"><img src="images/img03.jpg" width="970" height="320" alt="" /></div>
+	</div>
+</div>
+<div id="wrapper">
+	<div id="splash" class="container"><span>Browse your dream home here.</span> this website is a place where you can have your realisation of your dream home </div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Welcome to PropertyDeal </a></h2>
+				<div class="entry">
+					<p>This is <strong>property_deal </strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.  This free template is released under a <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0</a> license, so you’re pretty much free to do whatever you want with it (even use it commercially) provided you keep the links in the footer intact. Aside from that, have fun with it :)</p>
+					<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum vel, tempor at, varius non, purus. Mauris vitae nisl nec metus placerat consectetuer. Donec ipsum. Proin imperdiet est. Phasellus <a href="#">dapibus semper urna</a>. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer nisl felis ac diam. Etiam non felis. Donec ut ante. In id eros. Suspendisse lacus turpis,  egestas at sem.  Mauris quaenim,  in, rhoncus ut, lobortis a, est. Pellentesque ornare, orci in consectetuer hendrerit, urna elit eleifend nunc, ut consectetuer. </p>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<div><h2 align="center" style="font:bold">REGISTER</h2>
+ 				<form method="post" action="myregister" onsubmit="return reg()" >
+  <table width="506" border="1" align="center">
+    <tr>
+      <td width="179" ><strong>Name</strong></td>
+      <td width="311"><input type="text" id="name" name="name"/></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="email" id="em" name="em"/></td>
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td><input type="password" id="pass" name="pass"/></td>
+    </tr>
+    <tr>
+      <td>Conform Password</td>
+      <td><input type="password" id="cpass" name="cpass"/></td>
+    </tr>
+    <tr>
+      <td>DOB</td>
+      <td><select name="dd" id="dd">
+        <option>dd</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+      </select>
+        <select name="mm" id="mm">
+          <option>mm</option>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+        </select>
+        <select name="yyyy" id="yyyy">
+         <option selected="selected">yyyy</option>
+         <option>1993</option>
+          <option>1994</option>
+          <option>1995</option>
+          <option>1996</option>
+          <option>1997</option>
+          <option>1998</option>
+          <option>1999</option>
+          <option>2000</option>
+          <option>2001</option>
+          <option>2002</option>
+          <option>2003</option>
+          <option>2004</option>
+          <option>2005</option>
+          <option>2006</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>
+    <p>
+          <input type="radio" name="gen" id="gen" value="male" checked="checked"/>
+      MALE</p>
+      <p>
+          <input type="radio" name="gen" id="gen" value="female"/>
+      FEMALE</p></td>
+      </tr>
+    <tr>
+      <td>Mobno</td>
+      <td><input type="number" name="mob" id="mob" /></td>
+    </tr>
+    <tr>
+      <td>City</td>
+      <td><select name="city" id="city">
+        <option>indore</option>
+        <option>delhi</option>
+        <option>mumbai</option>
+        <option>mandsaur</option>
+        <option>chennai</option>
+        <option>srinagr</option>
+        <option>banglore</option>
+        <option>ahemdabad</option>
+        <option>pune</option>
+        <option>shimla</option>
+        <option>hyderabad</option>
+        <option>lucknow</option>
+        <option>agra</option>
+        <option>dhar</option>
+        <option>newyork</option>
+        <option>paris</option>
+        <option>losangles</option>
+        <option>london</option>
+        <option>switzerland</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Address*</td>
+      <td><textarea name="add" id="add" cols="25" rows="3"></textarea></td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Click For Registration</td>
+      <td><input type="submit" id="new" name="new" value="submit"/></td>
+    </tr>
+  </table>
+  <h3 style="font:italic">* optional</h3>
+</form>
+			</div>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page --> 
+</div>
+<div id="footer-content" class="container">
+	<div id="footer-bg">
+		<div id="column1">
+			<h2>Welcome to my website</h2>
+			<p>In posuere eleifend odio quisque semper augue mattis wisi maecenas ligula. Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue rutrum. Quisque dictum integer nisl risus, sagittis convallis, rutrum id, congue, and nibh. Pellentesque tristique ante ut risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus.<br />
+			</p>
+		</div>
+		<div id="column2">
+			<h2>Etiam rhoncus volutpat</h2>
+			<ul class="list-style2">
+				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li>
+				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li>
+				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li>
+				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li>
+			</ul>
+		</div>
+		<div id="column3">
+			<h2>Recommended Links</h2>
+			<ul class="list-style2">
+				<li class="first"><a href="#">Pellentesque quis elit non lectus gravida blandit.</a></li>
+				<li><a href="#">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</a></li>
+				<li><a href="#">Phasellus nec erat sit amet nibh pellentesque congue.</a></li>
+				<li><a href="#">Cras vitae metus aliquam risus pellentesque pharetra.</a></li>
+				<li><a href="#">Maecenas vitae orci vitae tellus feugiat eleifend.</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>© 2012 Untitled Inc. All rights reserved. Lorem ipsum dolor sit amet nullam blandit consequat phasellus etiam lorem. Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">FreeCSSTemplates.org</a>.  Photos by <a href="http://fotogrph.com/">Fotogrph</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

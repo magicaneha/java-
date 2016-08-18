@@ -1,0 +1,18 @@
+h1{
+  background: teal;  
+}
+body{
+    background-image: url("images/Winter.jpg");
+}
+input{
+    background-color: yellowgreen;
+}
+#em{
+    background: yellow;
+}
+#pw{
+    background: violet;
+}
+.myc{
+    background: yellowgreen;
+  }

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app id="WebApp_ID">
+	<display-name>feedback</display-name>
+	<servlet>
+		<servlet-name>StudentLogin</servlet-name>
+		<display-name>StudentLogin</display-name>
+		<description></description>
+		<servlet-class>StudentLogin</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>StudentLog</servlet-name>
+		<display-name>StudentLog</display-name>
+		<description></description>
+		<servlet-class>StudentLog</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentLogin</servlet-name>
+		<url-pattern>/StudentLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>StudentLog</servlet-name>
+		<url-pattern>/StudentLog</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,32 @@
+h1{
+  background: crimson;  
+}
+body{
+    background-image: url("images/Winter.jpg");
+}
+input{
+    background-color: yellowgreen;
+}
+#em{
+    background: yellow;
+}
+#pw{
+    background: violet;
+}
+.myc{
+    background: teal;
+  }
+  #header{
+      height:50px;
+      width: inherit;
+      background: wheat;
+      }
+    #logo{
+        height: 50px;
+        width: 50px;
+        background-image: url("images/img1.jpg");
+    float: left;
+    }
+    #title{
+        float: right;
+    }
